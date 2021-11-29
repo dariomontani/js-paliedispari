@@ -6,3 +6,13 @@
 // Dichiariamo chi ha vinto
 // (corrispondenza tra scelta pari e dispari e somma pari o dispari)
 // In un secondo momento creiamo delle funzioni per i numeri random e per il check pari dispari
+
+
+// L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+const numeroUtente = parseInt(prompt('inserisci un munero'));
+console.log(numeroUtente);
+
+// Generiamo un numero random(sempre da 1 a 5) per il computer
+const numeroComputer = Math.floor(Math.random() * 10) + 1;
+console.log(numeroComputer);
+
