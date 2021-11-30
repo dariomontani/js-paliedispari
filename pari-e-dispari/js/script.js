@@ -23,7 +23,7 @@ console.log('computer', numeroComputer);
 let somma = numeroUtente + numeroComputer;
 console.log('somma', somma);
 
-// verifico se l'utente ha vinto o gha perso
+// verifico se l'utente ha vinto o ha perso
 if (somma % 2 == 0 && sceltaPariDispari == 'pari') {
     console.log('HAI VINTO CON PARI');
 } else if (somma % 2 == 1 && sceltaPariDispari == 'dispari') {
@@ -31,5 +31,4 @@ if (somma % 2 == 0 && sceltaPariDispari == 'pari') {
 } else {
     console.log('HAI PERSO');
 }
-
 
